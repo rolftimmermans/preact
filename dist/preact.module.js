@@ -451,7 +451,7 @@ function L(l, u, i, t, r, o, f, c) {
 		c ||
 			('value' in p &&
 				void 0 !== (_ = p.value) &&
-				(_ !== y.value || _ !== l.value || ('progress' === d && !_)) &&
+				(_ !== l.value || ('progress' === d && !_)) &&
 				H(l, 'value', _, y.value, !1),
 			'checked' in p &&
 				void 0 !== (_ = p.checked) &&

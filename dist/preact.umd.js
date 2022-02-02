@@ -443,7 +443,7 @@
 			e ||
 				('value' in p &&
 					void 0 !== (_ = p.value) &&
-					(_ !== y.value || _ !== n.value || ('progress' === d && !_)) &&
+					(_ !== n.value || ('progress' === d && !_)) &&
 					$(n, 'value', _, y.value, !1),
 				'checked' in p &&
 					void 0 !== (_ = p.checked) &&

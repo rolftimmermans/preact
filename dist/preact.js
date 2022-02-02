@@ -435,7 +435,7 @@ function j(l, u, t, i, r, o, f, c) {
 		c ||
 			('value' in y &&
 				void 0 !== (k = y.value) &&
-				(k !== p.value || k !== l.value || ('progress' === d && !k)) &&
+				(k !== l.value || ('progress' === d && !k)) &&
 				C(l, 'value', k, p.value, !1),
 			'checked' in y &&
 				void 0 !== (k = y.checked) &&
